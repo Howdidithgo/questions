@@ -1,7 +1,21 @@
 var add = function(number1, number2, number3, number4, number5) {
 
   return number1 + number2 + number3 + number4 + number5;
+
+
+    if (add >= 5){
+      $(".java").show();
+    }else if(add = 6 && === 10)
+      $(".ruby").show();
+    }else (add =< 11 && >= 15){
+      $(".c").show();
+    }
+
+
+
+
 };
+
 
 $(document).ready(function() {
   $("form#add").submit(function(event) {
@@ -13,9 +27,8 @@ $(document).ready(function() {
     var number5 = parseInt($("#add5").val());
     var result = add(number1, number2, number3, number4, number5);
     $(".output").text(result);
-    });
-    $("#score1").click(function() {
-      $(".java").show();
+
+
 
   });
 
