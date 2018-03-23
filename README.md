@@ -34,3 +34,5 @@ _The coding languages used are HTML, CSS, and bootstrap, css, js and jquery. Oth
 *This software is licensed under MIT license.*
 
 Copyright (c) 2018 _Shane Frerichs_
+
+https://howdidithgo.github.io/questions/
