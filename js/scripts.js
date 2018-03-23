@@ -16,16 +16,14 @@ $(document).ready(function() {
     var result = add(number1, number2, number3, number4, number5);
     $(".output").text(result);
       });
-
-      $("#score1").click(function() {
-   $(".java").show();
-    });
-
-       $("#score2").click(function() {
+       $("#score1").click(function() {
     $(".java").show();
-  });
+    });
+    $("#score2").click(function() {
+      $(".java").show();
+    });
       $("#score3").click(function() {
     $(".ruby").show();
- });
+    });
 
   });
